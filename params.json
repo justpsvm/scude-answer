@@ -1,6 +1,6 @@
 {
   "name": "Scude-answer",
   "tagline": "a simple answer",
-  "body": "### 如何使用？\r\n\r\n打开考试页面，打开调试模式 (`F12`) \r\n\r\n请嵌入如下代码并回车：\r\n\r\n```javascript\r\n$(\"<script type='text/javascript' src='https://rawgit.com/yumemor/subentry/gh-pages/scude-answer/answer.js'></script>\").appendTo($(\"body\"));\r\n```\r\n\r\n### 更新说明\r\n\r\n#### 2016年05月22日 \r\n- 更新 `2016-05-20`-`2016-10-08` 试卷答案\r\n\r\n### 最后\r\n\r\n请各位同学低调使用，作业以及试卷出来之后 我会及时更新答案 。",
+  "body": "### 如何使用？[演示](https://github.com/yumemor/subentry/tree/gh-pages/scude-answer)\r\n\r\n打开考试页面，打开调试模式 (`F12`) \r\n\r\n请嵌入如下代码并回车：\r\n\r\n```javascript\r\n$(\"<script type='text/javascript' src='https://rawgit.com/yumemor/subentry/gh-pages/scude-answer/answer.js'></script>\").appendTo($(\"body\"));\r\n```\r\n\r\n### 更新说明\r\n\r\n#### 2016年05月22日 \r\n- 更新 `2016-05-20`-`2016-10-08` 试卷答案\r\n\r\n### 最后\r\n\r\n请各位同学低调使用，作业以及试卷出来之后 我会及时更新答案 。",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
