@@ -46,9 +46,10 @@ var answer = function(){
 			})
 		}
 
-		alert("试卷已经全部完成！点击确定自动提交试卷...");
-
-		workForm.submit();
+		var flag = confirm("试卷已经全部完成！是否立即提交试卷?");
+		if(flag){
+			workForm.submit();
+		}
 
 	}
 
