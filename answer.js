@@ -41,7 +41,6 @@ var answer = function(){
 		if(ifData.length == ifArr.length){
 			ifArr.each(function(i,value){
 				var index = ifData[value] ? 1 : 0;
-				console.log(index);
 				$(i).find("input[value='"+index+"']")[0].checked = "checked";					
 			})
 		}
