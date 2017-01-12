@@ -32,7 +32,7 @@ var answer = function(){
 
 		var ifArr = new Array();
 
-		$("ol>li>div").each(function(){
+		$("ol>li>div[onmouseover]").each(function(){
 			var olNode = $(this).find("ol[type='A']");
 			if(!olNode.length){
 				ifArr.push($(this));
@@ -45,10 +45,7 @@ var answer = function(){
 			})
 		}
 
-		var flag = confirm("试卷已经全部完成！是否立即提交试卷?");
-		if(flag){
-			workForm.submit();
-		}
+		if(confirm("试卷已经全部完成！是否立即提交试卷?")) workForm.submit();
 
 	}
 
