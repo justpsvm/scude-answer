@@ -6,7 +6,7 @@ var answer = function(){
 	var getAnswer = function(){
 		var currentPosition = $(".currentPosition").text();
 		console.log("获取答案中...")
-		$.getJSON("https://rawgit.com/yumemor/scude-answer/master/"+currentPosition+".json",null,function(result){
+		$.getJSON("https://cdn.rawgit.com/yumemor/scude-answer/master/"+currentPosition+".json",null,function(result){
 			console.log("答案获取成功，开始自动填写...")
 			handleAnswer(result);
 		},function(){
